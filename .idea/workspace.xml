@@ -7,6 +7,21 @@
       <change afterPath="$PROJECT_DIR$/../../AnimacjeScSS/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../AnimacjeScSS/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Modul4es6/KRA_FER_S_23_REACT_ES6/1_Zadania/Dzien_1/2_let_const/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/actors/duck/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/actors/duck/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/actors/duck/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/actors/duck/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/database/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/components/MoviesContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/components/MoviesForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/components/MoviesRemove.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/duck/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/duck/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/duck/operations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/duck/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/movies/duck/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Redux/app/src/Counter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Redux/app/src/store/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Sprawdzian Prawdy/.idea/.gitignore" afterDir="false" />
@@ -55,6 +70,12 @@
       <change afterPath="$PROJECT_DIR$/../../modul4/js9/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../modul4/js9/scss/style.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../modul4/js9/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Test2/.idea/Test2.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Test2/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Test2/.idea/modules.xml" beforeDir="false" />
@@ -69,16 +90,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QNMFKwd0euRdxqzAwQ4MtAv0rp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ZadaniaMAth" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -104,7 +128,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567606495796</updated>
-      <workItem from="1567606497573" duration="552000" />
+      <workItem from="1567606497573" duration="4782000" />
+      <workItem from="1567673405884" duration="17908000" />
+      <workItem from="1567764818942" duration="2422000" />
     </task>
     <servers />
   </component>
@@ -116,10 +142,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/movies/duck/reducers.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
