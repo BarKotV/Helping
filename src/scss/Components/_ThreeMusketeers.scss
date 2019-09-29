@@ -1,0 +1,32 @@
+.info {
+  background-image: url("./../../assets/assets/background-yellow.png") ;
+  height: 15.46rem;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  &__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    span {
+      font-size: 3rem;
+      padding-bottom: 1.5rem;
+    }
+
+    em {
+      font-size: 1.2rem;
+      padding-bottom: 2.8rem;
+    }
+
+    p{
+
+    }
+  }
+}
