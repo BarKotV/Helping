@@ -1,0 +1,32 @@
+.abaut {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+
+  &__text{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    align-items: center;
+    line-height: 2rem;
+    word-spacing: .2rem;
+    font-size: 1.3rem;
+    width: 35rem;
+    padding: 5.2rem 1rem 0 0;
+
+    &--signature{
+      padding-top: 1rem;
+      display: flex;
+      transform: translateX(9rem);
+    }
+  }
+
+  &__img {
+    background-image: url("./../../assets/assets/People.jpg");
+    background-size: contain;
+    height: 30rem;
+    width: 35rem;
+    background-repeat: no-repeat;
+  }
+}

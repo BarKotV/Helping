@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ReactSVG from "react-svg";
 
 class ThreeMusketeers extends Component {
     render() {

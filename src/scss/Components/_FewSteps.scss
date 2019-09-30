@@ -1,0 +1,41 @@
+.steps {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 2rem;
+
+  &__title {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+
+    &--padding {
+      padding-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+
+
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+  }
+
+  &__button {
+    padding-top: 4.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: center;
+
+    p {
+      border: 0.046rem solid grey;
+      padding: .3rem 4rem .3rem 4rem;
+    }
+  }
+}

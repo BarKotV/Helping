@@ -9,7 +9,7 @@ class Nav extends Component {
         return (
             <div className='container'>
                 <div className='nav'>
-                    <div className='nav__img'></div>
+                    <div className='nav__img'> </div>
                     <NavMenu/>
                 </div>
             </div>
