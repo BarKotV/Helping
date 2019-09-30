@@ -43,9 +43,9 @@ class NavMenu extends Component {
 class ContentRight extends Component {
     render() {
         return <div className='content'>
-            <p>Zacznij pomagać! <br/>
+            <em>Zacznij pomagać! <br/>
                 Oddaj niechciane rzeczy w zaufane ręce
-            </p>
+            </em>
             <div>
                 <ReactSVG src={DecorationSVG}/>
             </div>

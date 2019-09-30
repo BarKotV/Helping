@@ -1,0 +1,81 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  &__img {
+    background-image: url("./../../assets/assets/Background-Contact-Form.jpg");
+    background-size: cover;
+    width: 35rem;
+    height: 35rem;
+    background-repeat: no-repeat;
+    filter:alpha(opacity=50);
+    opacity: 0.4;
+    -moz-opacity:0.9;
+  }
+
+  &__form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p{
+      font-size: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    span {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.table{
+
+  &__name{
+    display: flex;
+
+    &--padding{
+      padding-right: 1rem;
+    }
+
+    &--style {
+        border: none;
+        background-image:none;
+        background-color:transparent;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding-top: .3rem;
+        transform: translateY(.5rem);
+
+    }
+  }
+
+  &__area{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    &--style {
+      border: none;
+      overflow: auto;
+      outline: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      resize: none;
+      padding-top: 1.2rem;
+      width: 25rem;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+
+    &--style{
+        border: 0.046rem solid darkgrey;
+        padding: 0.6rem 3rem 0.6rem 3rem;
+    }
+  }
+}

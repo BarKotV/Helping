@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-start;
-
+  padding-bottom: 2rem;
   &__text{
    display: flex;
    flex-direction: column;
@@ -15,6 +15,10 @@
     width: 35rem;
     padding: 5.2rem 1rem 0 0;
 
+    span{
+      font-size: 2rem;
+    }
+
     &--signature{
       padding-top: 1rem;
       display: flex;
@@ -24,9 +28,10 @@
 
   &__img {
     background-image: url("./../../assets/assets/People.jpg");
-    background-size: contain;
-    height: 30rem;
-    width: 35rem;
+    background-size: cover;
+    height: 40rem;
+    width: 40rem;
+    background-position: center;
     background-repeat: no-repeat;
   }
 }

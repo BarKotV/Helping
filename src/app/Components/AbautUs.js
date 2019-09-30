@@ -19,8 +19,8 @@ class AbautLeft extends Component {
     render() {
 
         return <div className='abaut__text'>
-            <p>O nas</p>
-            <ReactSVG className='abaut__text--icon' src={DecorationSVG}/>
+            <span>O nas</span>
+            <ReactSVG className='abaut__text--icon decoration--padding'  src={DecorationSVG}/>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa error excepturi inventore minus voluptate!</p>
             <div className='abaut__text--signature'>
             <ReactSVG src={Signature} />

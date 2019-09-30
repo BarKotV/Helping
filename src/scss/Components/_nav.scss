@@ -1,5 +1,10 @@
 $font-basic: 'Merriweather', serif;
 $font-alt: 'Open Sans', sans-serif;
+$decoration: 1rem;
+
+.decoration--padding {
+  padding-top: $decoration;
+}
 
 body {
   font-family: $font-basic;
@@ -76,12 +81,16 @@ body {
   line-height: 2.7rem;
   white-space: nowrap;
 
+  em {
+    font-size: 1.5rem;
+  }
+
   &__button {
     padding-top: 2rem;
     display: flex;
     justify-content: space-between;
 
-    &--left{
+    &--left {
       display: flex;
       flex-direction: column;
       text-align: center;

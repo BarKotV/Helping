@@ -8,6 +8,7 @@ import ThreeMusketeers from "./app/Components/ThreeMusketeers";
 import FewSteps from "./app/Components/FewSteps";
 import AbautUs from "./app/Components/AbautUs";
 import WhoWeHelp from "./app/Components/WWHelp";
+import ContactForm from "./app/Components/ContactForm"
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <FewSteps/>
             <AbautUs />
             <WhoWeHelp />
+            <ContactForm />
         </div>
     );
 }

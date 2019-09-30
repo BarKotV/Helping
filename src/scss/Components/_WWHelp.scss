@@ -1,0 +1,28 @@
+.help{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3rem;
+  width: 40rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+
+  em{
+    font-size: 2rem;
+  }
+
+  span {
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  &__teams {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    transform: translateX(-5rem);
+  }
+}
