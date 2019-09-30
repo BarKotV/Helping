@@ -9,6 +9,7 @@ import FewSteps from "./app/Components/FewSteps";
 import AbautUs from "./app/Components/AbautUs";
 import WhoWeHelp from "./app/Components/WWHelp";
 import ContactForm from "./app/Components/ContactForm"
+import Footer from "./app/Components/footer";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <AbautUs />
             <WhoWeHelp />
             <ContactForm />
+            <Footer />
         </div>
     );
 }

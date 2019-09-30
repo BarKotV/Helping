@@ -1,0 +1,15 @@
+.media {
+    display: flex;
+    justify-content: space-between;
+
+  & > p {
+    text-align: center;
+    padding-left: 30rem;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
