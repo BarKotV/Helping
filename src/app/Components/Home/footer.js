@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactSVG from "react-svg";
-import Fb from '../../assets/assets/Facebook.svg'
-import Insta from '../../assets/assets/Instagram.svg'
+import Fb from '../../../assets/assets/Facebook.svg'
+import Insta from '../../../assets/assets/Instagram.svg'
 
 class Footer extends Component {
     render() {

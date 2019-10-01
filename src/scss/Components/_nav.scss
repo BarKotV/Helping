@@ -68,6 +68,19 @@ body {
         border: .066rem solid black;
       }
     }
+
+    &--link{
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 0.5rem;
+      font-family: $font-alt;
+
+      &:hover {
+        text-decoration: none;
+        color: black;
+        border: .066rem solid black;
+      }
+    }
   }
 }
 

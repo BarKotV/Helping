@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactSVG from "react-svg";
-import DecorationSVG from '../../assets/assets/Decoration.svg'
-import Signature from '../../assets/assets/Signature.svg'
+import DecorationSVG from '../../../assets/assets/Decoration.svg'
+import Signature from '../../../assets/assets/Signature.svg'
 
 class AbautUs extends Component {
     render() {

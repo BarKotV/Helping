@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactSVG from "react-svg";
-import DecorationSVG from '../../assets/assets/Decoration.svg'
+import DecorationSVG from '../../../assets/assets/Decoration.svg'
 import {Link} from 'react-scroll'
 
 class Nav extends Component {
@@ -29,7 +29,7 @@ class NavMenu extends Component {
             </ul>
             <nav>
                 <ul className='nav__menu--row'>
-                    <li><Link
+                    <li className='nav__menu--link'><Link
                         activeClass="active"
                         to="nav"
                         spy={true}
@@ -38,7 +38,7 @@ class NavMenu extends Component {
                         duration={500}
                         className='nav__menu--link1'>Start</Link>
                     </li>
-                    <li><Link
+                    <li className='nav__menu--link' ><Link
                         activeClass="active"
                         to="thremusketeers"
                         spy={true}
@@ -46,7 +46,7 @@ class NavMenu extends Component {
                         offset={-300}
                         duration= {500}
                     > Ilu nas jest?</Link></li>
-                    <li><Link
+                    <li className='nav__menu--link' ><Link
                         activeClass="active"
                         to="abutus"
                         spy={true}
@@ -54,7 +54,7 @@ class NavMenu extends Component {
                         offset={-70}
                         duration= {500}
                     >O nas</Link></li>
-                    <li><Link
+                    <li className='nav__menu--link' ><Link
                         activeClass="active"
                         to="x"
                         spy={true}
@@ -62,7 +62,7 @@ class NavMenu extends Component {
                         offset={-70}
                         duration= {500}
                     >Fundajce i organizacje</Link></li>
-                    <li><Link
+                    <li className='nav__menu--link' ><Link
                         activeClass="active"
                         to="contactform"
                         spy={true}

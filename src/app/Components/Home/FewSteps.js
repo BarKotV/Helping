@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import ReactSVG from "react-svg";
-import DecorationSVG from '../../assets/assets/Decoration.svg'
-import Tshirt from '../../assets/assets/Icon-1.svg'
-import Bag from '../../assets/assets/Icon-2.svg'
-import HandGlass from '../../assets/assets/Icon-3.svg'
-import CircleArrows from '../../assets/assets/Icon-4.svg'
+import DecorationSVG from '../../../assets/assets/Decoration.svg'
+import Tshirt from '../../../assets/assets/Icon-1.svg'
+import Bag from '../../../assets/assets/Icon-2.svg'
+import HandGlass from '../../../assets/assets/Icon-3.svg'
+import CircleArrows from '../../../assets/assets/Icon-4.svg'
 
 
 class FewSteps extends Component {

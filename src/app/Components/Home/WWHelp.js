@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import DecorationSVG from '../../assets/assets/Decoration.svg'
+import DecorationSVG from '../../../assets/assets/Decoration.svg'
 import ReactSVG from "react-svg";
 
 
