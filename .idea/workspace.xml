@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee562c5e-ae30-4db2-bd4c-9e96b7e349fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/Components/_Media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Components/AbautUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/AbautUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Components/ThreeMusketeers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/ThreeMusketeers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Components/_nav.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,8 @@
       <workItem from="1569747147388" duration="11830000" />
       <workItem from="1569769026293" duration="8786000" />
       <workItem from="1569831751934" duration="7110000" />
-      <workItem from="1569846782116" duration="8810000" />
+      <workItem from="1569846782116" duration="9450000" />
+      <workItem from="1569919480129" duration="3069000" />
     </task>
     <servers />
   </component>

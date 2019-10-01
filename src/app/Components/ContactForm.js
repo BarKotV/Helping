@@ -4,7 +4,7 @@ import ReactSVG from "react-svg";
 
 class ContactForm extends Component{
     render() {
-        return <div className='container'>
+        return <div className='container' id='contactform'>
             <div className='contact'>
                 <div className='contact__img'> </div>
                 <Write />

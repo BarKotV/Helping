@@ -5,7 +5,7 @@ import Signature from '../../assets/assets/Signature.svg'
 
 class AbautUs extends Component {
     render() {
-        return <div className='container'>
+        return <div className='container' id='abutus'>
             <div className='abaut'>
                 <AbautLeft/>
                 <div className='abaut__img'> </div>

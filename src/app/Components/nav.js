@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactSVG from "react-svg";
 import DecorationSVG from '../../assets/assets/Decoration.svg'
+import {Link} from 'react-scroll'
 
 class Nav extends Component {
     render() {
@@ -8,8 +9,8 @@ class Nav extends Component {
 
         return (
             <div className='container'>
-                <div className='nav'>
-                    <div className='nav__img'> </div>
+                <div className='nav' id='nav'>
+                    <div className='nav__img'></div>
                     <NavMenu/>
                 </div>
             </div>
@@ -28,11 +29,47 @@ class NavMenu extends Component {
             </ul>
             <nav>
                 <ul className='nav__menu--row'>
-                    <li><a className='nav__menu--color' href="#">Start</a></li>
-                    <li><a className='nav__menu--color' href="#">O co chodzi?</a></li>
-                    <li><a className='nav__menu--color' href="#">O nas</a></li>
-                    <li><a className='nav__menu--color' href="#">Fundacje i organizacje</a></li>
-                    <li><a className='nav__menu--color' href="#">Kontakt</a></li>
+                    <li><Link
+                        activeClass="active"
+                        to="nav"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='nav__menu--link1'>Start</Link>
+                    </li>
+                    <li><Link
+                        activeClass="active"
+                        to="thremusketeers"
+                        spy={true}
+                        smooth={true}
+                        offset={-300}
+                        duration= {500}
+                    > Ilu nas jest?</Link></li>
+                    <li><Link
+                        activeClass="active"
+                        to="abutus"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                    >O nas</Link></li>
+                    <li><Link
+                        activeClass="active"
+                        to="x"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                    >Fundajce i organizacje</Link></li>
+                    <li><Link
+                        activeClass="active"
+                        to="contactform"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration= {500}
+                    >Kontakt</Link></li>
                 </ul>
             </nav>
             <ContentRight/>
@@ -42,7 +79,7 @@ class NavMenu extends Component {
 
 class ContentRight extends Component {
     render() {
-        return <div className='content'>
+        return <div className='content' id='nav'>
             <em>Zacznij pomagać! <br/>
                 Oddaj niechciane rzeczy w zaufane ręce
             </em>

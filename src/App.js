@@ -11,6 +11,16 @@ import WhoWeHelp from "./app/Components/WWHelp";
 import ContactForm from "./app/Components/ContactForm"
 import Footer from "./app/Components/footer";
 
+
+import ReactDOM from 'react-dom';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
+
 function App() {
     return (
         <div className="App">
