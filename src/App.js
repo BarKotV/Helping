@@ -34,7 +34,7 @@ function App() {
                     <Route path='/' component={ContactForm} />
                     <Route path='/' component={Footer} />
                 </>
-            </HashRouter>;
+            </HashRouter>
         </div>
     );
 }
