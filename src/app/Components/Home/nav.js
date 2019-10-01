@@ -43,6 +43,9 @@ class NavMenu extends Component {
 }
 
 class ContentRight extends Component {
+
+
+
     render() {
         return <div className='content' id='nav'>
             <em>Zacznij pomagać! <br/>
@@ -53,9 +56,10 @@ class ContentRight extends Component {
             </div>
             <div className='content__button'>
                 <div className='content__button--left'>
-                    <em>ODDAJ</em>
+                    <Link  className='content__button--link' to='/login'>
+                    ODDAJ<br />
                     RZECZY
-                </div>
+                </Link></div>
                 <div className='content__button--right'>
                     <em> ZORGANIZUJ </em>
                     ZBIÓRKĘ

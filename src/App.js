@@ -26,13 +26,13 @@ function App() {
         <div className="App">
             <HashRouter>
                 <>
-                    <Route exact path='/' component={Nav} />
-                    <Route path='/' component={ThreeMusketeers} />
-                    <Route path='/' component={FewSteps} />
-                    <Route path='/' component={AbautUs} />
-                    <Route path='/' component={WhoWeHelp} />
-                    <Route path='/' component={ContactForm} />
-                    <Route path='/' component={Footer} />
+                    <Route exact path='/' component={Nav}/>
+                    <Route exact path='/' component={ThreeMusketeers}/>
+                    <Route exact path='/' component={FewSteps}/>
+                    <Route exact path='/' component={AbautUs}/>
+                    <Route exact path='/' component={WhoWeHelp}/>
+                    <Route exact path='/login' component={ContactForm}/>
+                    <Route exact path='/' component={Footer}/>
                 </>
             </HashRouter>
         </div>

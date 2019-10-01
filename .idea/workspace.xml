@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee562c5e-ae30-4db2-bd4c-9e96b7e349fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/Components/Home/NavRight.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Components/Home/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/Home/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Components/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Components/_nav.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <workItem from="1569769026293" duration="8786000" />
       <workItem from="1569831751934" duration="7110000" />
       <workItem from="1569846782116" duration="9450000" />
-      <workItem from="1569919480129" duration="5678000" />
+      <workItem from="1569919480129" duration="6949000" />
     </task>
     <servers />
   </component>

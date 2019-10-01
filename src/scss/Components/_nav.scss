@@ -110,6 +110,8 @@ body {
       text-align: center;
       border: 0.05rem solid black;
       padding: 0.3rem 3rem 0.3rem 3rem;
+
+
     }
 
     &--right {
@@ -119,6 +121,24 @@ body {
       border: 0.05rem solid black;
       padding: 0.31rem 1.7rem 0.31rem 1.7rem;
 
+    }
+
+    &--link {
+
+      &:link {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 
