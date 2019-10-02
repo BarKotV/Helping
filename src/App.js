@@ -31,7 +31,7 @@ function App() {
                     <Route exact path='/' component={FewSteps}/>
                     <Route exact path='/' component={AbautUs}/>
                     <Route exact path='/' component={WhoWeHelp}/>
-                    <Route exact path='/login' component={ContactForm}/>
+                    <Route exact path='/' component={ContactForm}/>
                     <Route exact path='/' component={Footer}/>
                 </>
             </HashRouter>

@@ -56,7 +56,7 @@ class ContentRight extends Component {
             </div>
             <div className='content__button'>
                 <div className='content__button--left'>
-                    <Link  className='content__button--link' to='/login'>
+                    <Link  className='content__button--link' to='/'>
                     ODDAJ<br />
                     RZECZY
                 </Link></div>
