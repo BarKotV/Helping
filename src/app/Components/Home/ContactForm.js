@@ -17,6 +17,13 @@ class ContactForm extends Component {
 }
 
 class Write extends Component {
+
+    state = {
+        name: null,
+        email: null,
+        message: null,
+    };
+
     render() {
 
 
@@ -29,32 +36,81 @@ class Write extends Component {
 
         const fetchTextForm = () => {
 
-            const newmassage = {
+            this.setState({
+                name: null,
+                email: null,
+                message: null,
+
+            });
+
+            let newmassage = {
                 name: nameInput.current.value,
                 email: emailInput.current.value,
                 message: messageInput.current.value
             };
 
-            async function add() {
+            const rules = {
+                'Rname': /^[a-zA-Z ]{2,30}$/,
+                'Remail': /^[a-z0-9\._%-]+@[a-z0-9\.-]+\.[a-z]{2,4}$/i,
+                'message': /^[a-zA-Z ]{5,100}$/
 
-                try {
-                    const response = await fetch(url, {
-                        method: 'POST', // or 'PUT'
-                        body: JSON.stringify(newmassage), // data can be `string` or {object}!
-                        headers: {
-                            'Content-Type': 'application/json'
-                        }
-                    });
-                    const json = await response.json();
-                    console.log('Success:', JSON.stringify(json));
-                } catch (error) {
-                    console.error('Error:', error);
-                }
+            };
 
+            if (rules.Rname.test(newmassage.name)) {
+                this.setState({
+                    name: true
+                })
+            } else {
+                this.setState({
+                    name: false
+                })
             }
 
-            add();
+            if (rules.Remail.test(newmassage.email)) {
+                this.setState({
+                    email: true
+                })
+            } else {
+                this.setState({
+                    email: false
+                })
+            }
 
+            if (rules.message.test(newmassage.message)) {
+                this.setState({
+                    message: true
+                });
+            } else {
+                this.setState({
+                    message: false
+                });
+            }
+
+            const check = () => {
+                if (this.state.name === true && this.state.email === true && this.state.message === true) {
+                    async function saveFn() {
+
+                        try {
+                            const response = await fetch(url, {
+                                method: 'POST',
+                                body: JSON.stringify(newmassage),
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                }
+                            });
+                            const json = await response.json();
+                            console.log('Success:', JSON.stringify(json));
+                        } catch (error) {
+                            console.error('Error:', error);
+                        }
+                    }
+
+                    saveFn();
+                }
+
+            };
+
+            check();
 
         };
 
