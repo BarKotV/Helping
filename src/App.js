@@ -26,7 +26,7 @@ function App() {
         <div className="App">
             <HashRouter>
                 <>
-                    <Route exact path='/' component={Nav}/>
+                    <Route exact path='/w' component={Nav}/>
                     <Route exact path='/' component={ThreeMusketeers}/>
                     <Route exact path='/' component={FewSteps}/>
                     <Route exact path='/' component={AbautUs}/>
