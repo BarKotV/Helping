@@ -6,7 +6,7 @@ const INITIAL_STATE = {
     message: ''
 };
 
-const  actorsReducers = (state = INITIAL_STATE, action) =>{
+const  formReducer = (state = INITIAL_STATE, action) =>{
     switch (action.type) {
 
         case types.ADD_NAME:
@@ -27,4 +27,4 @@ const  actorsReducers = (state = INITIAL_STATE, action) =>{
     }
 };
 
-export default actorsReducers
+export default formReducer
