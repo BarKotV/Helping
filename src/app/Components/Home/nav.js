@@ -61,9 +61,10 @@ class ContentRight extends Component {
                     RZECZY
                 </Link></div>
                 <div className='content__button--right'>
-                    <em> ZORGANIZUJ </em>
-                    ZBIÓRKĘ
-                </div>
+                    <Link  className='content__button--link' to='/'>
+                        ZORGANIZUJ<br />
+                        ZBIÓRKĘ
+                    </Link></div>
             </div>
         </div>
     }

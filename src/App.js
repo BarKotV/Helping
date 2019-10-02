@@ -10,6 +10,8 @@ import AbautUs from "./app/Components/Home/AbautUs";
 import WhoWeHelp from "./app/Components/Home/WWHelp";
 import ContactForm from "./app/Components/Home/ContactForm"
 import Footer from "./app/Components/Home/footer";
+import {Provider} from 'react-redux'
+import store from "./store";
 
 
 import ReactDOM from 'react-dom';
@@ -23,19 +25,21 @@ import {
 
 function App() {
     return (
-        <div className="App">
-            <HashRouter>
-                <>
-                    <Route exact path='/' component={Nav}/>
-                    <Route exact path='/' component={ThreeMusketeers}/>
-                    <Route exact path='/' component={FewSteps}/>
-                    <Route exact path='/' component={AbautUs}/>
-                    <Route exact path='/' component={WhoWeHelp}/>
-                    <Route exact path='/' component={ContactForm}/>
-                    <Route exact path='/' component={Footer}/>
-                </>
-            </HashRouter>
-        </div>
+        <Provider store={store}>
+            <div className="App">
+                <HashRouter>
+                    <>
+                        <Route exact path='/' component={Nav}/>
+                        <Route exact path='/' component={ThreeMusketeers}/>
+                        <Route exact path='/' component={FewSteps}/>
+                        <Route exact path='/' component={AbautUs}/>
+                        <Route exact path='/' component={WhoWeHelp}/>
+                        <Route exact path='/' component={ContactForm}/>
+                        <Route exact path='/' component={Footer}/>
+                    </>
+                </HashRouter>
+            </div>
+        </Provider>
     );
 }
 

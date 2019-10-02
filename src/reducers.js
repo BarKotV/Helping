@@ -1,9 +1,9 @@
 import { combineReducers} from "redux";
-import actorsReducers from "./app/actors/duck";
+import formReducer from "./app/form/duck";
 import moviesReducer from "./app/movies/duck";
 
 const rootReducer = combineReducers({
-    actors: actorsReducers,
+    form: formReducer,
     movies: moviesReducer
 });
 

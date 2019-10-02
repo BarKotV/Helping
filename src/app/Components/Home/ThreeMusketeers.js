@@ -11,12 +11,12 @@ class ThreeMusketeers extends Component {
                 </div>
                 <div className='info__bar'>
                     <span>10</span>
-                    <em>ODDANYCH WORKÓW</em>
+                    <em>WSPARTYCH ORGANIZACJI</em>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam est eum laboriosam optio quibusdam totam!</p>
                 </div>
                 <div className='info__bar'>
                     <span>10</span>
-                    <em>ODDANYCH WORKÓW</em>
+                    <em>ZORGANIZOWANYCH ZBIÓREK</em>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam est eum laboriosam optio quibusdam totam!</p>
                 </div>
             </div>
