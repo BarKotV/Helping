@@ -37,5 +37,23 @@
       border: 0.046rem solid grey;
       padding: .3rem 4rem .3rem 4rem;
     }
+
+    &--link {
+
+      &:link {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: black;
+      }
+    }
   }
 }

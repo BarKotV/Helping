@@ -33,8 +33,8 @@ class NavMenu extends Component {
     render() {
         return <div className='nav__menu'>
             <ul className='nav__menu--row nav__menu--login'>
-                <li><Link className='nav__menu--color' to='/'>Zaloguj</Link></li>
-                <li><Link className='nav__menu--color' to="/">Założ konto</Link></li>
+                <li><Link className='nav__menu--color' to='/logowanie'>Zaloguj</Link></li>
+                <li><Link className='nav__menu--color' to="/rejestracja">Założ konto</Link></li>
             </ul>
             <NavRight />
             <ContentRight/>

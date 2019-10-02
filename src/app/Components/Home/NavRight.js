@@ -3,6 +3,7 @@ import ReactSVG from "react-svg";
 import DecorationSVG from '../../../assets/assets/Decoration.svg'
 import {Link} from 'react-scroll'
 
+
 class NavRight extends Component{
     render() {
         return <nav>

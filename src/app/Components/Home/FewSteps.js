@@ -5,6 +5,14 @@ import Tshirt from '../../../assets/assets/Icon-1.svg'
 import Bag from '../../../assets/assets/Icon-2.svg'
 import HandGlass from '../../../assets/assets/Icon-3.svg'
 import CircleArrows from '../../../assets/assets/Icon-4.svg'
+import ReactDOM from 'react-dom';
+import {
+    HashRouter,
+    Route,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
 
 
 class FewSteps extends Component {
@@ -17,10 +25,10 @@ class FewSteps extends Component {
                 </div>
                 <Icons/>
                 <div className='steps__button'>
-                    <p>
+                    <p><Link className='steps__button--link' to='/login' >
                         ODDAJ <br/>
                         RZECZY
-                    </p>
+                    </Link> </p>
                 </div>
             </div>
         </div>
