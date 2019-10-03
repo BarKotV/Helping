@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee562c5e-ae30-4db2-bd4c-9e96b7e349fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Components/Home/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/Home/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/database/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/database/db.json" afterDir="false" />
     </list>
@@ -19,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +72,11 @@
       <workItem from="1569919480129" duration="7287000" />
       <workItem from="1569938041030" duration="51000" />
       <workItem from="1570004941521" duration="7419000" />
-      <workItem from="1570018733328" duration="15348000" />
+      <workItem from="1570018733328" duration="15601000" />
+      <workItem from="1570092973600" duration="7314000" />
+      <workItem from="1570100798442" duration="6000" />
+      <workItem from="1570100805949" duration="8000" />
+      <workItem from="1570101144484" duration="5119000" />
     </task>
     <servers />
   </component>
