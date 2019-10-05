@@ -19,7 +19,6 @@ class ContactForm extends Component {
 const Write = () => {
 
 
-
     const [name, setName] = useState(null);
     const [email, setEmail] = useState(null);
     const [message, setMessage] = useState(null);
@@ -27,13 +26,6 @@ const Write = () => {
     const nameInput = React.createRef();
     const emailInput = React.createRef();
     const messageInput = React.createRef();
-    const clear = () => {
-        setName(null);
-        setEmail(null);
-        setMessage(null);
-        //emailInput.current.value = ' ';
-        // messageInput.current.value = ' '
-    };
 
 
     const url = "http://localhost:3000/form";
@@ -47,34 +39,49 @@ const Write = () => {
         }
     };
 
-    const checkSend = (a, b, c, d) => {
-        if (a === true && b === true && c === true) {
-            saveFn(d);
-        }
-    }
 
-    async function saveFn(newmassage) {
 
-        try {
-            const response = await fetch(url, {
-                method: 'POST',
-                body: JSON.stringify(newmassage),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            });
-            const json = await response.json();
-            console.log('Success:', JSON.stringify(json));
-                clear();
-        } catch (error) {
-            console.error('Error:', error);
-        }
-    }
+
+
 
     const fetchTextForm = e => {
+
+        const checkSend = (a, b, c, d) => {
+            if (a === true && b === true && c === true) {
+                saveFn(d);
+            }
+        }
+
+        async function saveFn(newmassage) {
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    body: JSON.stringify(newmassage),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const json = await response.json();
+                console.log('Success:', JSON.stringify(json));
+                clear();
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+
+        const clear = () => {
+            setName(null);
+            setEmail(null);
+            setMessage(null);
+            nameInput.current.value = ' ';
+            emailInput.current.value = ' ';
+            messageInput.current.value = ' '
+        };
+
         e.preventDefault();
 
-        nameInput.current.value = ' ';
         let newmassage = {
             name: nameInput.current.value,
             email: emailInput.current.value,
@@ -111,12 +118,12 @@ const Write = () => {
     let wrongMessage = null;
 
     if (name === false) {
-         wrongName = <em>Podane imie jest nieprawidłowe</em>;
+        wrongName = <em>Podane imie jest nieprawidłowe</em>;
     }
-    if(email === false){
+    if (email === false) {
         wrongEmail = <em>Podany email jest nieprawidłowy</em>;
     }
-    if(message === false){
+    if (message === false) {
         wrongMessage = <em>Proszę wpisać min. 100 znakow </em>;
     }
 

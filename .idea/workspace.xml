@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Components/Home/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/Home/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/database/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/database/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Components/_ContactForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Components/_ContactForm.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,8 @@
       <workItem from="1570100798442" duration="6000" />
       <workItem from="1570100805949" duration="8000" />
       <workItem from="1570101144484" duration="6136000" />
-      <workItem from="1570116367948" duration="5076000" />
+      <workItem from="1570116367948" duration="5528000" />
+      <workItem from="1570298196043" duration="629000" />
     </task>
     <servers />
   </component>
