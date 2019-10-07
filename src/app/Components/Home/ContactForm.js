@@ -22,6 +22,7 @@ const Write = () => {
     const [name, setName] = useState(null);
     const [email, setEmail] = useState(null);
     const [message, setMessage] = useState(null);
+    const [pass, setPass] = useState(false);
 
     const nameInput = React.createRef();
     const emailInput = React.createRef();
@@ -48,6 +49,7 @@ const Write = () => {
 
         const checkSend = (a, b, c, d) => {
             if (a === true && b === true && c === true) {
+                setPass(true);
                 saveFn(d);
             }
         }
@@ -70,23 +72,26 @@ const Write = () => {
             }
         }
 
-
-        const clear = () => {
-            setName(null);
-            setEmail(null);
-            setMessage(null);
-            nameInput.current.value = ' ';
-            emailInput.current.value = ' ';
-            messageInput.current.value = ' '
-        };
-
-        e.preventDefault();
-
         let newmassage = {
             name: nameInput.current.value,
             email: emailInput.current.value,
             message: messageInput.current.value
         };
+
+        const clear = () => {
+            setName(null);
+            setEmail(null);
+            setMessage(null);
+            document.getElementById('name').value = ' ';
+            document.getElementById('email').value = ' ';
+            document.getElementById('message').value = ' ';
+        };
+
+        e.preventDefault();
+
+
+
+
 
         const rules = {
             'Rname': /^[a-zA-Z ]{2,30}$/,
@@ -126,7 +131,8 @@ const Write = () => {
     if (message === false) {
         wrongMessage = <em>Proszę wpisać min. 100 znakow </em>;
     }
-
+    if(pass === true){
+    }
 
     return <div className='contact__form'>
         <p>Skontaktuj sie z nami</p>
@@ -138,13 +144,13 @@ const Write = () => {
                 <tr className='table__name'>
                     <th className='table__name--padding table__name--error'>
                         <span>Wpisz swoje imie</span><br/>
-                        <input ref={nameInput} className='table__name--style' type='text'/><br/>
+                        <input ref={nameInput} className='table__name--style' id="name" type='text'/><br/>
                         <hr/>
                         {wrongName}
                     </th>
                     <th className='table__name--error'>
                         <span>Wpisz swój email</span><br/>
-                        <input ref={emailInput} className='table__name--style' type='text'/><br/>
+                        <input ref={emailInput} className='table__name--style' id="email" type='text'/><br/>
                         <hr/>
                         {wrongEmail}
                     </th>
@@ -152,7 +158,7 @@ const Write = () => {
                 <tr className='table__area'>
                     <th className='table__name--error'>
                         <span>Wpisz swoją wiadomośc</span><br/>
-                        <textarea ref={messageInput} className='table__area--style'/><br/>
+                        <textarea ref={messageInput} id="message" className='table__area--style'/><br/>
                         <hr/>
                         {wrongMessage}
                     </th>
