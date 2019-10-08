@@ -121,6 +121,7 @@ const Write = () => {
     let wrongName = null;
     let wrongEmail = null;
     let wrongMessage = null;
+    let correct = null;
 
     if (name === false) {
         wrongName = <em>Podane imie jest nieprawidłowe</em>;
@@ -132,12 +133,16 @@ const Write = () => {
         wrongMessage = <em>Proszę wpisać min. 100 znakow </em>;
     }
     if(pass === true){
+      correct = <em >
+            Wiadomość została wysłana! < br/>
+            Wkrótce się skontaktujemy.
+        </em>
     }
 
     return <div className='contact__form'>
         <p>Skontaktuj sie z nami</p>
         <ReactSVG src={DecorationSVG}/>
-
+        {correct}
         <form onSubmit={fetchTextForm}>
             <table>
                 <tbody>
