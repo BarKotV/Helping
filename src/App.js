@@ -10,6 +10,7 @@ import AbautUs from "./app/Components/Home/AbautUs";
 import WhoWeHelp from "./app/Components/Home/WWHelp";
 import ContactForm from "./app/Components/Home/ContactForm"
 import Footer from "./app/Components/Home/footer";
+import Log from  "./app/Components/LogReg/Log"
 import {Provider} from 'react-redux'
 import store from "./store";
 
@@ -37,6 +38,8 @@ function App() {
                         <Route exact path='/' component={WhoWeHelp}/>
                         <Route exact path='/' component={ContactForm}/>
                         <Route exact path='/' component={Footer}/>
+                        <Route exact path='/log' component={Log}/>
+
                     </>
                 </HashRouter>
             </div>
