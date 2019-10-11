@@ -4,14 +4,7 @@ import DecorationSVG from '../../../assets/assets/Decoration.svg'
 import NavRight from "./../Home/NavRight";
 import NavMenu from "./../Home/nav";
 
-import ReactDOM from 'react-dom';
-import {
-    HashRouter,
-    Route,
-    Link,
-    Switch,
-    NavLink,
-} from 'react-router-dom';
+
 
 class Log extends Component {
     render() {
