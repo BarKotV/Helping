@@ -19,9 +19,9 @@ class ContactForm extends Component {
 const Write = () => {
 
 
-    const [name, setName] = useState(null);
-    const [email, setEmail] = useState(null);
-    const [message, setMessage] = useState(null);
+    const [name, setName] = useState();
+    const [email, setEmail] = useState();
+    const [message, setMessage] = useState();
     const [pass, setPass] = useState(false);
 
     const nameInput = React.createRef();
@@ -33,16 +33,12 @@ const Write = () => {
 
     const checkForm = (validkey, item, set) => {
         if (validkey.test(item)) {
-            set(true)
+            set(true);
             return true
         } else {
             set(false);
         }
     };
-
-
-
-
 
 
     const fetchTextForm = e => {
@@ -79,9 +75,9 @@ const Write = () => {
         };
 
         const clear = () => {
-            setName(null);
-            setEmail(null);
-            setMessage(null);
+            setName();
+            setEmail();
+            setMessage();
             document.getElementById('name').value = ' ';
             document.getElementById('email').value = ' ';
             document.getElementById('message').value = ' ';
@@ -90,14 +86,11 @@ const Write = () => {
         e.preventDefault();
 
 
-
-
-
         const rules = {
             'Rname': /^[a-zA-Z ]{2,30}$/,
             'Remail': /^[a-z0-9\._%-]+@[a-z0-9\.-]+\.[a-z]{2,4}$/i,
             'Rmessage': /^[a-zA-Z ]{10,200}$/
-
+            // imie nie działa dopoprawy
         };
 
         async function checkAll() {
@@ -105,7 +98,7 @@ const Write = () => {
                 a: '',
                 b: '',
                 c: ''
-            }
+            };
             const resultsA = await checkForm(rules.Rname, newmassage.name, setName);
             breakpoints.a = resultsA;
             const resultsB = await checkForm(rules.Remail, newmassage.email, setEmail);
@@ -116,7 +109,7 @@ const Write = () => {
         }
 
         checkAll();
-    }
+    };
 
     let wrongName = null;
     let wrongEmail = null;
@@ -132,8 +125,8 @@ const Write = () => {
     if (message === false) {
         wrongMessage = <em>Proszę wpisać min. 100 znakow </em>;
     }
-    if(pass === true){
-      correct = <em >
+    if (pass === true) {
+        correct = <em>
             Wiadomość została wysłana! < br/>
             Wkrótce się skontaktujemy.
         </em>
