@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee562c5e-ae30-4db2-bd4c-9e96b7e349fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/Components/LogReg/_Log.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Components/LogReg/Reg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Components/Home/AbautUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/Home/AbautUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Components/Home/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/Home/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Components/LogReg/Log.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Components/LogReg/Log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/App.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,7 @@
       <workItem from="1570786719067" duration="4983000" />
       <workItem from="1571145789870" duration="599000" />
       <workItem from="1571154607743" duration="3144000" />
-      <workItem from="1571204988328" duration="9806000" />
+      <workItem from="1571204988328" duration="13048000" />
     </task>
     <servers />
   </component>
